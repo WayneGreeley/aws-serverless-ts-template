@@ -23,6 +23,8 @@ clode repository
 cd into folder
 ```
 npm install serverless -g
+npm install -g npm-check-updates
+ncu --upgrade
 npm i
 sls deploy
 ```

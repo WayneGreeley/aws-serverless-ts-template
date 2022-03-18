@@ -4,7 +4,7 @@
   "description": "AWS Serverless Framework Typescript Template",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "localhello": "sls invoke local --function hellolambda --path src/hello.json "
   },
   "repository": {
     "type": "git",
@@ -14,12 +14,12 @@
   "license": "MIT",
   "devDependencies": {
     "@tsconfig/node14": "^1.0.1",
-    "@types/aws-lambda": "^8.10.92",
+    "@types/aws-lambda": "^8.10.93",
     "serverless-prune-plugin": "^2.0.1",
     "serverless-webpack": "^5.6.1",
-    "ts-loader": "^9.2.6",
-    "typescript": "^4.5.5",
-    "webpack": "^5.67.0",
+    "ts-loader": "^9.2.8",
+    "typescript": "^4.6.2",
+    "webpack": "^5.70.0",
     "webpack-node-externals": "^3.0.0"
   }
 }

@@ -19,7 +19,7 @@ npm i -D typescript
 
 Commands to deploy
 
-clode repository
+clone repository, 
 cd into folder
 ```
 npm install serverless -g

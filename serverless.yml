@@ -9,21 +9,20 @@ provider:
   timeout: 10
 
 plugins:
-  - serverless-webpack
+  - serverless-bundle
   - serverless-prune-plugin
+  - serverless-iam-roles-per-function
   
 custom:
   prune:
     automatic: true
     number: 1
-  webpack:
-    includeModules: true
 
 package:
-  excludeDevDependencies: false
   individually: true
-  patterns: # Specify the directories and files which should be included in the deployment package
-    - src/**
+  #excludeDevDependencies: false
+  #patterns: # Specify the directories and files which should be included in the deployment package
+  #  - src/**
 
 functions:
   hellolambda:

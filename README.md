@@ -29,3 +29,8 @@ npm i
 sls deploy
 ```
 
+to delete stack...
+
+```
+sls remove
+```
